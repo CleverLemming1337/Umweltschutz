@@ -1,0 +1,116 @@
+body {
+        background: linear-gradient(-45deg, green, lightblue);
+        background-size: 400% 400%;
+        animation: gradient 120s linear infinite;
+		font-family: Bradley Hand;
+}
+.logo {
+	width: 67px;
+	height: 51x;
+}
+.co2clock {
+	margin: 10px;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.menuitem {
+	padding-right: 5em;
+	color: black;
+	text-decoration: none;
+}
+div.contentbox {
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 5px;
+	padding-top: 0px;
+}
+input, textarea {
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+input.name {
+	width: 15em;
+}
+textarea {
+	width: 20em;
+	height: 15em;
+}
+.alert_alert-danger {
+	border-radius: 5px;
+	border: 5px solid red;
+	border-left: 2em solid red;
+	color: red;
+	margin-bottom: 12pt;
+}
+.alert_alert-success {
+	border-radius: 5px;
+	border: 5px solid #008000;
+	border-left: 2em solid #008000;
+	color: #008000;
+}
+.alert_alert-info {
+	border-radius: 5px;
+	border: 5px solid blue;
+	border-left: 2em solid blue;
+	color: blue;
+}
+.icon {
+	padding-top: 5pt;
+	height: 20pt;
+	width: 2opt;
+}
+button {
+	background-color: rgb(2, 83, 189);
+	color: white;
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.close-button {
+	float: right;
+	padding: 10px;
+}
+.source {
+	font-size: 7pt;
+}
+.sub {
+	vertical-align: sub;
+	font-size: 8pt;
+}
+button.check {
+	background-color: green;
+}
+.checkbox:checked {
+	border-radius: 5px;
+	background-color: blue;
+}
+.bubble {
+	margin: 30px;
+	border-radius: 100%;
+	background-color: rgba(0, 217, 255, 0.466);
+	height: 11em;
+	width: 11em;
+	text-align: center;
+	vertical-align: middle;
+	border: 5px solid rgba(255, 255, 255, 0);
+}
+.bubble:hover {
+	border: 5px solid black;
+}
+[type="checkbox"]:checked {
+	background-color: blue;
+}
+input {
+	background-color: rgba(255, 255, 255, 0);
+	border: none;
+	border-bottom: 2px solid black;
+	border-radius: 0px;
+}

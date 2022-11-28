@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Umweltschutz-Profil</title>
+	<link rel="icon" href="tree-fill.svg">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+</head>
+<body>
+	<h1><img src="Logo.png" class="logo"> Willkommen beim Umweltschutz-Profil</h1>
+	<div class="menubar">
+		<span class="menuitem">Startseite</span>
+		<a class="menuitem" href="./Minigames/Startseite.html">Minispiele</a>
+		<a class="menuitem" href="./Stats/stats.html">Statistiken</a>
+	</div>
+	<div class="alert_alert-success" id="alert_alert-success" hidden>
+		<img src="envelope-check-fill.svg" class="icon"/>
+		Erfolgreich versendet!<img class="close-button" src="x-square.svg" onclick="removeAlertSuccess();"/>
+	</div>
+	<br/>
+	<div class="contentbox">
+		<h3>Was bereits umgesetzt wurde:</h3>
+		<input type="checkbox" class="checkbox" checked=True disabled/>Wir verkaufen Schokolade und Pflanzen
+	</div>
+	<br/>
+	<div class="contentbox">
+		<h3>Woran wir arbeiten:</h3>
+		<input class="checkbox" type="checkbox" disabled/>Funktion zum absenden eigener Ideen auf dieser Website
+		<br/>
+		<input class="checkbox" type="checkbox" disabled/>B&auml;ume auf dem Schulhof pflanzen
+	</div>
+	<br/>
+	<div class="alert_alert-danger" id="alert_alert-danger" hidden><img src="cone-striped.svg" class="icon"/>
+		Bitte gib deine Idee ein!<img class="close-button" src="x-square.svg" onclick="removeAlertDanger();"/></div>
+	<!-- <div class="contentbox"><h3><img src="tools.svg" /> Hier entsteht eine neue Funktion...</h3>
+	<input type="text" placeholder="Dein Name (optional)" id="Name" class="name" alt="Wenn du möchtest, kannst du hier deinen Namen eingeben"></input><br/><br/>
+	<textarea placeholder="Deine Idee..." id="Idea" alt="Bitte gib hier deine Idee ein"></textarea><br/>
+	<button onclick="sendIdea();">Absenden</button> 
+	</div>--><br/>
+	<div class="contentbox">
+		<h3>Der Countdown l&auml;uft!</h3>
+		Auf dieser CO<span class="sub">2</span>-Uhr der MCC Berlin siehst du, wie viel CO<span class="sub">2</span> wir noch ausstoßen dürfen, damit wir das <a href="https://de.wikipedia.org/wiki/1%2C5-Grad-Ziel">1,5°C</a>- bzw. das 2°C-Ziel schaffen.
+			<iframe src="https://www.mcc-berlin.net/fileadmin/data/clock/carbon_clock.htm?i=3267263" style="width: 630px; height: 405px; margin-bottom: 4px;"></iframe>
+			<a href="https://www.mcc-berlin.net/en/research/co2-budget.html" style="display: block; width: 630px; background-color: black; text-align: center; color: white; text-decoration: none;">Info</a></div>
+	</div>
+	<br/>
+	<div class="contentbox">
+		<h3>Probiere unsere Umweltschutz-Minispiele aus</h3>
+		<a href="./Minigames/Startseite.html">Zu den Spielen</a></div><br/>
+	<input type="checkbox" onclick="window.location.href='https://google.com'"checked=False/>Bootstrap aktivieren
+	<p class="source">Symbole von Bootstrap: <a href="https://icons.getbootstrap.com">https://icons.getbootstrap.com</a></p>
+	<p class="source">Das Logo wurde selbst gezeichnet.</p>
+</body>
+</html>
+checked=False
