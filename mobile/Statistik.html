@@ -1,0 +1,42 @@
+<doctype! html>
+
+<style>
+
+.bubble {
+	margin: 30px;
+	border-radius: 100%;
+	background-color: rgba(0, 217, 255, 0.466);
+	height: 11em;
+	width: 11em;
+	text-align: center;
+	vertical-align: middle;
+	border: 5px solid rgba(255, 255, 255, 0);
+}
+.bubble:hover {
+	border: 5px solid black;
+}
+</style>
+<div class="bubble" onclick="info1();">
+        <p style="font-size: 33.6px;">33,6</p>
+        Bäume gepflanzt
+    </div><!--
+    <div class="bubble" onclick="info2();">
+        <p style="font-size: 33.6px;">0</p>
+        Bäumen geholfen
+    </div>-->
+    <div class="bubble" onclick="info3();">
+        <p style="font-size: 33.6px;">40 €</p>
+        verdient
+    </div>
+<script>
+function info1() {
+    alert("So haben wir Bäume gepflanzt: \n - Für jede verkaufte Tafel Schokolade wurden 0,2 Bäume gepflanzt.");
+}
+function info2() {
+    alert("Wir haben die Einnahmen von Schokolade und Pflanzen dafür benutzt, den Bäumen zu helfen, indem wir: \n - Sie mit Wassersäcken ausgestattet haben.");
+}
+function info3() {
+    alert("So haben wir Geld verdient: \n - Schokolade und Pflanzen verkauft");
+}
+
+</script>

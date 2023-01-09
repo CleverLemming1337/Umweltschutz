@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+	<link rel="icon"  href="tree-fill.svg">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Umweltprofil</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  </head>
+  <style>
+   .sub {
+	vertical-align: sub;
+	font-size: 8pt;
+}
+
+input[type="checkbox"] {
+    background: #990000;    
+}
+  </style>
+  <body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <text style="border-radius: 2px; font-size: 20px" onclick="history.back()"  class="bi bi-box-arrow-in-left" type="submit"></text>
+            <a href="#" class="navbar-brand"><img src="logo.png" width="45px" height="38px">Willkommen beim Umweltschutz-Profil </a>
+          <form class="d-flex" >
+            
+            <text style="font-size: 20px" onclick="share()" class="bi bi-box-arrow-up" type="submit">  </text>
+		     
+          </form>
+        </div>
+
+      </nav>
+      <div class="card" style="width: 100%;margin-top: 30px;border-radius: 15px;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Was bereits umgesetzt wurde:</h5>
+          <p class="card-text">✔ Wir verkaufen Schokolade und Pflanzen   </p>
+		  
+         
+        </div>
+		
+		<div class="card" style="width: 100%;margin-top: 30px;border-radius: 15px;">
+        
+        <div class="card-body">
+          <h5 class="card-title">Woran wir arbeiten:</h5>
+          <p class="card-text">✔ Baüme auf dem Schulhof pflanzen </p>
+         
+        </div>
+		
+      </div>
+      <div class="card" style="margin-top:30px; border-radius: 15px;margin-right: 10px;">
+      <div class="mb-3" style="margin-top:30px; border-radius: 15px;margin-left: 20px;">
+        
+        <h5 style="margin-bottom: 20px;" class="card-title">Hast du eine Idee wie man die Schule Umweltfreundlicher gestalten kann, dann teile sie uns mit</h1>
+        <label for="exampleFormControlInput1" class="form-label">Email-Adrsse</label>
+        <input  type="email" class="form-control" id="email" placeholder="name@example.com">
+      </div>
+      <div class="mb-3" style="margin-left: 20px;">
+        <label for="exampleFormControlTextarea1" class="form-label">Deine Idee</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+
+        <button style="margin-top: 20px;" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#exampleModal">Absenden</button>
+      </div>
+      </div>
+     
+	 
+	 <div class="card" style="margin-top:30px; border-radius: 15px;margin-right: 10px;">
+      <div class="mb-3" style="margin-top:30px; border-radius: 15px;margin-left: 20px;">
+        
+        <h5 style="margin-bottom: 20px;" class="card-title">Der Countdown leuft</h1>
+		<p style="margin-bottom: 20px;" class="card-text">Auf dieser CO<span class="sub">2</span>-Uhr der MCC Berlin siehst du wie viel CO<span class="sub">2</span> wir noch ausstoßen dürfen, damit wir das <a href="https://de.wikipedia.org/wiki/1%2C5-Grad-Ziel">1,5°C</a>- bzw. das 2°C-Ziel schaffen.</p>
+        <iframe src="https://www.mcc-berlin.net/fileadmin/data/clock/carbon_clock.htm?i=3267263" style="width:600px; height:340px;"></iframe>
+
+      </div>
+      </div>
+	  
+	   <div class="card" style="margin-top:30px; border-radius: 15px;margin-right: 10px;">
+      <div class="mb-3" style="margin-top:30px; border-radius: 15px;margin-left: 20px;">
+        
+        <!--><h5 style="margin-bottom: 20px;" class="card-title"></h1>  -->
+		<!-- <p style="margin-bottom: 20px;" class="card-text">Auf dieser CO<span class="sub">2</span>-Uhr der MCC Berlin siehst du wie viel CO<span class="sub">2</span> wir noch ausstoßen dürfen, damit wir das <a href="https://de.wikipedia.org/wiki/1%2C5-Grad-Ziel">1,5°C</a>- bzw. das 2°C-Ziel schaffen.</p> -->
+        <iframe src="statistik.html" style="width:600px; height:500px;"></iframe>
+
+      </div>
+      </div>
+	  
+	   <div class="card" style="margin-top:30px; border-radius: 15px;margin-right: 10px;">
+      <div class="mb-3" style="margin-top:30px; border-radius: 15px;margin-left: 20px;">
+        
+        <h5 style="margin-bottom: 20px;" class="card-title">Mini-Spiele</h1>
+		<h5 style="margin-bottom: 20px;" class="card-text">Probiere jetz unsere  <a href="mini-spiele.html">Mini-Spiele</a>  aus</h1>
+        
+
+      </div>
+      </div>
+      
+      
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Sie werden jetzt zu ihrem Email-Programm Weitergeeleitet</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        
+        <div class="modal-footer">
+          <button onclick="email()" type="button" class="btn btn-secondary" data-bs-dismiss="modal">OK</button>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<p><br></p>
+<a style="padding-left: 46%;font-size:10px;" href="https://github.com/twbs/bootstrap/blob/main/LICENSE"> License-Bootstrap</p>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    
+	
+	
+
+	
+        
+</body>
+<script>
+function share(){if (navigator.share) {
+  navigator.share({
+    title: 'Umweltschutz',
+    text: 'lerne mehr über diese Website.',
+    url: 'https://example.org',
+  })
+    .then(() => console.log('Successful share'))
+    .catch((error) => console.log('Error sharing', error));
+}
+}
+function email(){
+let text = document.getElementById("exampleFormControlTextarea1").value;
+let email = document.getElementById("email").value;
+ 
+if (text.length < 1) {
+  alert("Bitte fülle alles aus")
+} 
+else if (email.length < 1) {
+  alert("Bitte fülle alles aus")
+}
+else{
+window.location.replace("mailto:beispiel@example.org?subjekt=Neue Email zum Projekt von  " + email + "&body=" + text) }
+}
+
+</script>
+</html>
