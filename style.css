@@ -4,6 +4,9 @@ body {
         animation: gradient 120s linear infinite;
 		font-family: Bradley Hand;
 }
+.menubar {
+	position: fix;
+}
 .logo {
 	width: 67px;
 	height: 51x;
