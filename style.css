@@ -5,7 +5,7 @@ body {
 		font-family: Bradley Hand;
 }
 .menubar {
-	position: fix;
+	position: fixed;
 }
 .logo {
 	width: 67px;
