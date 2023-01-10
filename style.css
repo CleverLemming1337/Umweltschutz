@@ -5,10 +5,10 @@ body {
 		font-family: Bradley Hand;
 }
 .menubar {
+	background-color: white;
 	position: fixed;
 	top: 0px;
 	left: 0px;
-	background-color: white;
 	box-shadow: 5px 0px;
 }
 .logo {
